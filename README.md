@@ -34,7 +34,7 @@ pip install -r requirements.txt
 cd Cross-attention-learning-enables-real-time-nonuniform-rotational-distortion-correction-in-OCT
 ```
 
-5. In the training phase, the prepared architecture of the training dataset is referenced to `./dataset/test sequence/` folder. The name index of images and distortion vector as ground-truth are listed in `train.txt` and `val.txt`. Run the code:
+5. In the training phase, the prepared architecture of the training dataset is referenced to `./dataset/training data/` folder. The name index of images and distortion vector as ground-truth are listed in `train.txt` and `val.txt`. Run the code:
 ```
 python main.py --test_mode False --label True
 ```
@@ -43,19 +43,13 @@ python main.py --test_mode False --label True
 ```
 python main.py --test_mode True --label False
 ```
-After correction, the corrected sequence will be saved in folder  `./dataset/correction/` folder.
+  After correction, the corrected sequence will be saved in folder  `./dataset/correction/` folder.
 
 
 ## Citation
 ```
 @article{
-  title={Annotation-efficient learning for OCT segmentation},
-  author={Zhang, Haoran and Yang, Jianlong and Zheng, Ce and Zhao, Shiqing and Zhang, Aili},
-  journal={Biomedical Optics Express},
-  volume={14},
-  number={7},
-  pages={3294--3307},
-  year={2023},
-  publisher={Optica Publishing Group}
+  title={Cross-attention learning enables real-time nonuniform rotational distortion correction in OCT},
+  author={HAORAN ZHANG, JIANLONG YANG,* JINGQIAN ZHANG, SHIQING ZHAO, and AILI ZHANG},
 }
 ```
