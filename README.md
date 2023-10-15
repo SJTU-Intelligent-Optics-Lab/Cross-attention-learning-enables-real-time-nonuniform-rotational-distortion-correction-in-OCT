@@ -29,19 +29,21 @@ pip install -r requirements.txt
 
 3. Edit suitable path and parameters in main.py
 
-5. Go to the corresponding folder and run:
+4. Go to the corresponding folder and run:
 ```
 cd Cross-attention-learning-enables-real-time-nonuniform-rotational-distortion-correction-in-OCT
 ```
-  In the training phase, the prepared architecture of the training dataset is referenced to `./dataset/test sequence/` folder. The name index of images and distortion vector as ground-truth are listed in `train.txt` and `val.txt`. Run the code:
-  ```
-  python main.py --test_mode False --label True
-  ```
-  In the test phase, the prepared architecture of the test sequence with NURD is referenced to `./dataset/test sequence/` folder. Run the code:
-  ```
-  python main.py --test_mode True --label False
-  ```
-  After correction, the corrected sequence will be saved in folder  `./dataset/correction/` folder.
+
+5. In the training phase, the prepared architecture of the training dataset is referenced to `./dataset/test sequence/` folder. The name index of images and distortion vector as ground-truth are listed in `train.txt` and `val.txt`. Run the code:
+```
+python main.py --test_mode False --label True
+```
+
+6. In the test phase, the prepared architecture of the test sequence with NURD is referenced to `./dataset/test sequence/` folder. Run the code:
+```
+python main.py --test_mode True --label False
+```
+After correction, the corrected sequence will be saved in folder  `./dataset/correction/` folder.
 
 
 ## Citation
