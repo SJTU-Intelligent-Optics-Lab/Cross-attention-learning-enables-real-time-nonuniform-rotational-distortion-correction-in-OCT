@@ -1,6 +1,6 @@
 # Cross-attention-learning-enables-real-time-nonuniform-rotational-distortion-correction-in-OCT
 
-This repository contains the code for the paper "Cross-attention learning enables real-time nonuniform rotational distortion correction in OCT". Here we provide the code for Details of implementation. Our approach achieves a substantial ∼3× speedup to real-time processing (26 ± 3 frames per second) and superior NURD correction performance. We hope this approach will contribute to the further development of endoscopic OCT technology and its multi-organ, multi-functional, multi-clinical scenario applications, as well as other rotational scanning imaging techniques such as intravascular ultrasound.
+This repository contains the code for the paper "Cross-attention learning enables real-time nonuniform rotational distortion correction in OCT". Here we provide the code for details of implementation. Our approach achieves a substantial ∼3× speedup to real-time processing (26 ± 3 frames per second) and superior NURD correction performance. We hope this approach will contribute to the further development of endoscopic OCT technology and its multi-organ, multi-functional, multi-clinical scenario applications, as well as other rotational scanning imaging techniques such as intravascular ultrasound.
 
 ![Overview](images/img1.png)
 ![example of results](images/img2.png)
